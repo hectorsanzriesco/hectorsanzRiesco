@@ -1,0 +1,20 @@
+@keyframes shapeChange {
+    0% {
+      background-color: red;
+      border-radius: 0;
+    }
+    50% {
+      background-color: blue;
+      border-radius: 50%;
+    }
+    100% {
+      background-color: red;
+      border-radius: 0;
+    }
+  }
+  
+  .animated-element {
+    width: 100px;
+    height: 100px;
+    animation: shapeChange 4s infinite;
+  }
